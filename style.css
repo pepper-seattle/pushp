@@ -1,0 +1,39 @@
+a {
+  color: #dbdbdb;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: #1d1d1d;
+}
+
+.button {
+  background: #56ab2f;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  line-height: 40px;
+  margin: 10px;
+  width: 40px;
+}
+
+.button:hover {
+  background: #a8e063;
+  color: #1d1d1d;
+  cursor: pointer;
+}
+
+.day-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.calendar {
+  background-color: #1d1d1d;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+}
