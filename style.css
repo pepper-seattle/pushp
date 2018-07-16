@@ -1,3 +1,7 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
 a {
   color: #dbdbdb;
   text-decoration: none;
@@ -34,6 +38,8 @@ a:hover {
 
 .calendar {
   background-color: #1d1d1d;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Roboto, sans-serif;
   font-size: 32px;
 }
+
+/* Day Page Styling */
